@@ -12,7 +12,7 @@ app = ctk.CTk()
 app.title("Weather App")
 app.geometry("400x400")
 
-API_KEY = '2374116c94899336a4c73851cb37d756'  # Replace with your OpenWeatherMap API key
+API_KEY = 'put your API key here'  # Replace with your OpenWeatherMap API key
 
 # Create a label and entry for city input
 city_label = ctk.CTkLabel(app, text="Enter City:", font=("Arial", 16))
